@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Admin Panel</h2>
+                <p>Welcome, Admin</p>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a href="#" class="active"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="../acc create/createacc.html"><i class="fas fa-user-plus"></i> Create Account</a></li>
+                <li><a href="../simpledoor/doors.html"><i class="fas fa-lightbulb"></i> Manage doors</a></li>
+                <li><a href="#"><i class="fas fa-cog"></i> Settings</a></li>
+            </ul>
+        </div>
+        
+        <div class="main-content">
+            <div class="header">
+                <h1>Admin Dashboard</h1>
+                <button class="logout-btn"><i class="fas fa-sign-out-alt"></i> Logout</button>
+            </div>
+            
+            <div class="dashboard-cards">
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <h3>Create Account</h3>
+                    <p>Create new user accounts with different access levels</p>
+                    <a href="../acc create/createacc.html" class="card-btn">Manage Accounts</a>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Manage doors</h3>
+                    <p>Control and monitor all door lights in the system</p>
+                    <a href="../simpledoor/doors.html" class="card-btn">Access Lights</a>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics</h3>
+                    <p>View system usage and access statistics</p>
+                    <a href="#" class="card-btn">View Reports</a>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>System Settings</h3>
+                    <p>Configure global system preferences</p>
+                    <a href="#" class="card-btn">Modify Settings</a>
+                </div>
+            </div>
+            
+            <div class="footer">
+                <p>&copy; 2025 Admin Dashboard. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
